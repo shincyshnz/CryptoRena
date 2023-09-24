@@ -17,7 +17,7 @@ console.log(coinExchangeList?.data?.exchanges);
 
   return (
     <>
-      <Row>
+      <Row style={{ marginBlock:'20px' }}>
         <Col span={8} style={{paddingLeft:'30px'}}>Exchanges</Col>
         <Col span={6}>24h Trade Volume</Col>
         <Col span={6}>Markets</Col>

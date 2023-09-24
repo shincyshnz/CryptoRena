@@ -32,10 +32,10 @@ a:hover{
 .main{
     flex: 0.8;
     width: 100%;
-    
 }
 .routes{
     padding: 20px;
+    min-height: 90vh;
 }
 .nav-container{
     position: fixed;

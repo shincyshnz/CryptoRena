@@ -25,7 +25,7 @@ The website is structured for easy navigation:
 ### CryptoCurrencies
  Users can navigate through the different cryptocurrencies. By clicking each cryptocurrency users get Information regarding the cryptocurrency, including price chart and useful links to explore more.
 
-## News: 
+### News: 
 Users can view news about cryptocurrencies and able to filter news based on cryptocurrencies
 
 ### Search

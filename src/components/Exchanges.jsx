@@ -18,7 +18,7 @@ console.log(coinExchangeList?.data?.exchanges);
   return (
     <>
       <Row>
-        <Col span={6}>Exchanges</Col>
+        <Col span={8} style={{paddingLeft:'30px'}}>Exchanges</Col>
         <Col span={6}>24h Trade Volume</Col>
         <Col span={6}>Markets</Col>
         {/* <Col span={6}>Change</Col> */}
@@ -32,8 +32,8 @@ console.log(coinExchangeList?.data?.exchanges);
                 showArrow={false}
                 header={
                   <Row key={exchange.uuid}>
-                    <Col span={6}>
-                      <Text>{/* <strong>{exchange.rank}.</strong> */}</Text>
+                    <Col span={8}>
+                      {/* <Text>{<strong>{exchange.rank}.</strong>}</Text> */}
                       <Avatar
                         className="exchange-image"
                         src={exchange.iconUrl}

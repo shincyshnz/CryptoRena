@@ -5,7 +5,7 @@ import moment from "moment";
 import { useGetCryptosQuery } from "../services/cryptoAPI";
 
 const { Text, Title } = Typography;
-const { options } = Select;
+const { Option } = Select;
 const demoImgUrl =
   "http://coinrevolution.com/wp-content/uploads/2020/06/cryptonews.jpg";
 
@@ -34,9 +34,9 @@ const News = ({ simplified }) => {
               option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0
             }
           >
-            <Select.Option value="Cryptocurrency" >Cryptocurrency</Select.Option>
+            <Option value="Cryptocurrency" >Cryptocurrency</Option>
             {data?.data?.coins?.map((coin, index) => (
-              <Select.Option value={coin.name} key={index}>{coin.name}</Select.Option>
+              <Option value={coin.name} key={index}>{coin.name}</Option>
             ))}
           </Select>
         </Col>

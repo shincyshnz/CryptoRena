@@ -6,3 +6,5 @@
  - Ant Design
  - Chart js
  - Redux Toolkit
+ - Redux Toolkit Query
+ - millify

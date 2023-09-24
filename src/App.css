@@ -166,6 +166,7 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     gap: 40px;
+    margin-top: 20px;
 }
 
 .stats-container h2{
@@ -178,7 +179,6 @@ a:hover{
 .coin-details-heading{
     font-weight: 700 !important;
     margin-top: 20px !important;
-    color: var(--pink) !important;
 }
 
 .coin-stats{
